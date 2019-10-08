@@ -1,0 +1,46 @@
+apache2和nginx
+1.安装apache，并能在浏览器上显示
+apt install apache2
+service apache2 start
+打开浏览器输入127.0.0.1
+
+
+2.3.4
+cd /etc/apache2
+ls
+vi ports.conf
+i
+把listen后的80改为8082
+esc
+:wq
+service apache2 restart
+打开127.0.0.1:8082
+
+cd /etc/apache2/sites-enabled
+ls
+vi 000-default.conf
+把/var/www/html改为/www/var/myWeb
+service apache2 restart
+
+apt install nginx
+service nginx start
+cd /etc/nginx
+ls
+cd sites-available
+ls
+vi default
+i
+把两个80都改为8081把下面的var/www/html改为var/www/html2
+esc
+:wq
+cd /var/www
+mkdir html2
+cd html2
+touch index.html
+vim index.html
+i
+编写网页
+esc
+:wq
+service nginx restart
+打开网页127.0.0.1:8081

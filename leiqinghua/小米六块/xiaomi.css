@@ -1,0 +1,161 @@
+.home-hero-container {
+    position: relative;
+    z-index: 10;
+}
+.container {
+    width: 1226px;
+    height: 170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.home-hero {
+    position: relative;
+    margin-bottom: 26px;
+    height: 170px;
+}
+.home-hero .home-hero-sub {
+    margin-top: 14px;
+    height: 170px;
+}
+.row {
+    margin-left: -14px;
+}
+.span4 {
+    width: 234px;
+    height: 170px;
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .span13, .span14, .span15, .span16, .span17, .span18, .span19, .span20 {
+    float: left;
+    margin-left: 7px;
+    min-height: 1px;
+}
+.home-channel-list {
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    height: 164px;
+    text-align: center;
+    background: #5f5750;
+}
+ul, menu, dir {
+    display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.home-channel-list li {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.home-channel-list a {
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+    transition: color .2s;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    height: 24px;
+    line-height: 24px;
+    
+}
+.phone{
+    background-image: url(image3.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40px 40px;
+}
+.present{
+    background-image: url(image4.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 25px 25px;
+}
+.first{
+    background-image: url(image5.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 25px 25px;
+}
+.phonecard{
+    background-image: url(image6.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 25px 25px;
+}
+.ground{
+    background-image: url(image7.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 25px 25px;
+}
+.card{
+    background-image: url(image8.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 25px 25px;
+}
+.home-channel-list i {
+    display: block;
+    height: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 24px;
+}
+a {
+    text-decoration: none;
+}
+.span16 {
+    width: 978px;
+}
+.home-promo-list {
+    margin: 0;
+    padding: 0;
+    height: 170px;
+    list-style-type: none;
+}
+.home-promo-list li.first {
+    margin-left: 5px;
+}
+.home-promo-list a {
+    display: block;
+    height: 170px;
+}
+a {
+    color: #757575;
+    text-decoration: none;
+}
+.home-promo-list li {
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 12px;
+    transition: box-shadow .2s linear;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.home-promo-list img {
+    width: 316px;
+    height: 170px;
+}
+img {
+    border: 0;
+}

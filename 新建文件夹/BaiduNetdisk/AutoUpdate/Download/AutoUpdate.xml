@@ -1,0 +1,109 @@
+<AutoUpdate version="1.0">
+	<Updater version="1.0.0.11" url="http://issuecdn.baidupcs.com/issue/netdisk/pc-guanjia-update/6.7.4.2new/updater_6742.cab" md5="056E9EE6FDD45667FF90537109C97EE9" hint="">
+		<File name="Autoupdate.exe" dest="updater:\" type="bin" operation="add" md5="32B7A1DEBF8CB32D2CF5B74E219C6C2B"/>
+		<File name="AutoUpdateUtil.dll" dest="updater:\" type="bin" operation="add" md5="4E00C57AFDB77DB3C4271C510405A10C"/>
+		<File name="config.ini" dest="updater:\" type="resource" operation="add" md5="ABE0392D19BAE73AE96E262E6CDBB8E2"/>
+		<File name="VersionInfo.xml" dest="updater:\" type="resource" operation="add" md5="133A35D733C96C32ED8F63681438993B"/>
+	</Updater>
+	<Module name="MainApp" text="6.7.4自动升级" version="6.7.4.2" level="force">
+		<FullPackage hint="1、优化部分功能的使用体验，提升系统稳定性\r\n" md5="6ECCCAE6BE233D7EA0618FC7D7F278C3" url="http://issuecdn.baidupcs.com/issue/netdisk/pc-guanjia-update/6.7.4.2new/fullpackage_6742.cab ">
+			<File name="api-ms-win-core-console-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="3C89C64D591AB2EAF01FBD2253B3A623"/>
+			<File name="api-ms-win-core-datetime-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="6DBCAFA7FD0B183040B73E7E1D97674B"/>
+			<File name="api-ms-win-core-debug-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="D9E02887A85903EE3A4FA7F197865274"/>
+			<File name="api-ms-win-core-errorhandling-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="FCC2E13D7DB99B2F3725046CA7D392D0"/>
+			<File name="api-ms-win-core-file-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="D613BAA29AFA3DB1FAA991876DD382F1"/>
+			<File name="api-ms-win-core-file-l1-2-0.dll" dest="MainApp:\" type="bin" operation="add" md5="00D8B4BED48A1BB8A0451B967A902977"/>
+			<File name="api-ms-win-core-file-l2-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="534483B0F4A1924B1AE6D7E66B4A4926"/>
+			<File name="api-ms-win-core-handle-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="2BD9500AB908C0E02CA40F19EF647288"/>
+			<File name="api-ms-win-core-heap-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="2BDCA93251D247E98E0A907BF68FFC7B"/>
+			<File name="api-ms-win-core-interlocked-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="8A6C74B9A1DB0D730AF45BE603D233C8"/>
+			<File name="api-ms-win-core-libraryloader-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="A9116F560839DF0C03BE8AD704AB3351"/>
+			<File name="api-ms-win-core-localization-l1-2-0.dll" dest="MainApp:\" type="bin" operation="add" md5="73483CBC229C62E129627ADBF62B0FFE"/>
+			<File name="api-ms-win-core-memory-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="D9E4E446DCCCBFA822059DCD16EDFC41"/>
+			<File name="api-ms-win-core-namedpipe-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="BB05CDFFC71AC2B0C0FB2CC35B409EC2"/>
+			<File name="api-ms-win-core-processenvironment-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="14E48E802A6690282EBDE74FD5B78E6F"/>
+			<File name="api-ms-win-core-processthreads-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="F2FA7C391D7671AB11028E85D29AB27F"/>
+			<File name="api-ms-win-core-processthreads-l1-1-1.dll" dest="MainApp:\" type="bin" operation="add" md5="7016BF365A155D29F01A000942A017EF"/>
+			<File name="api-ms-win-core-profile-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="5B222E79ED442685E509BB3F16E93482"/>
+			<File name="api-ms-win-core-rtlsupport-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="308AEDD0DD83ACFB5AEC8C60782A4AED"/>
+			<File name="api-ms-win-core-string-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="749B5C0031E0726FA45A3BB9B48B3802"/>
+			<File name="api-ms-win-core-synch-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="2BBC9CF572B18123A0F27F04492C6EA6"/>
+			<File name="api-ms-win-core-synch-l1-2-0.dll" dest="MainApp:\" type="bin" operation="add" md5="9EFDFFAC1D337807B52356413B04B97B"/>
+			<File name="api-ms-win-core-sysinfo-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="B697440BDBBA2E896005DE51943EE0DB"/>
+			<File name="api-ms-win-core-timezone-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="42C72D838C34E4E7164C578A930B8FC7"/>
+			<File name="api-ms-win-core-util-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="C0B34D2146CD6F6CC2FE345029066EC8"/>
+			<File name="api-ms-win-crt-conio-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="4296CF3A7180E10AAF6147F4AECD24E4"/>
+			<File name="api-ms-win-crt-convert-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="5C6FD1C6A5E69313A853A224E18A7FAC"/>
+			<File name="api-ms-win-crt-environment-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="6A3D5701446F6635FAFF87014A836EEE"/>
+			<File name="api-ms-win-crt-filesystem-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="4EC243792D382305DB59DC78B72D0A1E"/>
+			<File name="api-ms-win-crt-heap-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="A51CFB8CF618571215EEBA7095733B25"/>
+			<File name="api-ms-win-crt-locale-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="8D097AA5BEC8BDB5DF8F39E0DB30397C"/>
+			<File name="api-ms-win-crt-math-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="AB87BDAE2F62E32A533F89CD362D081C"/>
+			<File name="api-ms-win-crt-multibyte-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="169E20A74258B182D2CDC76F1AE77FC5"/>
+			<File name="api-ms-win-crt-private-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="682BF6B9C07A64929A4484DB51D6C13D"/>
+			<File name="api-ms-win-crt-process-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="3838DD55B0237AF0FBAC474ABB6614CC"/>
+			<File name="api-ms-win-crt-runtime-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="49363F3CF4671BAA6BE1ABD03033542F"/>
+			<File name="api-ms-win-crt-stdio-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="BE16965ACC8B0CE3A8A7C42D09329577"/>
+			<File name="api-ms-win-crt-string-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="3EAE6D370F2623B37EC39C521D1F1461"/>
+			<File name="api-ms-win-crt-time-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="A440776E10098F3A8EF1C5EACA72958E"/>
+			<File name="api-ms-win-crt-utility-l1-1-0.dll" dest="MainApp:\" type="bin" operation="add" md5="A0A883E26BE6800508162E2A898148D9"/>
+			<File name="appproperty.xml" dest="MainApp:\" type="resource" operation="add" md5="38A35EE4EF24896D4450825D30DA2D84"/>
+			<File name="apputil.dll" dest="MainApp:\" type="bin" operation="add" md5="5D162A69A7A6B6CA723151573706924D"/>
+			<File name="autobackup.ico" dest="MainApp:\" type="resource" operation="add" md5="B415AF318CCF6889CD8F754B81AE5882"/>
+			<File name="autodiagnose.dll" dest="MainApp:\" type="bin" operation="add" md5="068E0CA75C77689085D0BE605824503A"/>
+			<File name="autodiagnoseupdate.exe" dest="MainApp:\" type="bin" operation="add" md5="AC269860000E2E076394947ABDE82342"/>
+			<File name="baidunetdisk.exe" dest="MainApp:\" type="bin" operation="add" md5="B2C968E2BBD156603B2A214B6FF49926"/>
+			<File name="baidunetdiskhost.exe" dest="MainApp:\" type="bin" operation="add" md5="B1417017C655083F0649AF8EA0E647BE"/>
+			<File name="basement.dll" dest="MainApp:\" type="bin" operation="add" md5="EBAAE59585E913F1A0817108EC8E2F90"/>
+			<File name="bugreport.exe" dest="MainApp:\" type="bin" operation="add" md5="CB765133A0D7919BC3FE598EA04B8F7B"/>
+			<File name="bull140u.dll" dest="MainApp:\" type="bin" operation="add" md5="3CA2B4C87795396DF32342C40DDDBB8A"/>
+			<File name="cacert.pem" dest="MainApp:\" type="resource" operation="add" md5="B57B182695C355630DD2E5717139B55D"/>
+			<File name="channelpcsdk.dll" dest="MainApp:\" type="bin" operation="add" md5="394C127CEA0092A72B888A3D124CD565"/>
+			<File name="concrt140.dll" dest="MainApp:\" type="bin" operation="add" md5="ABDEF5F24D965BEB17ACC7948B4BEBFD"/>
+			<File name="crossdomain.dat" dest="MainApp:\" type="resource" operation="add" md5="A2BDBC6A04BE76CEB7AB694D55AFBD2A"/>
+			<File name="duiengine license.txt" dest="MainApp:\" type="resource" operation="add" md5="EC1F61829F3E9852C9019A48D8158F1D"/>
+			<File name="exiv2.dll" dest="MainApp:\" type="bin" operation="add" md5="9A6AE8313EE2680EB93023DC90D62C3E"/>
+			<File name="helputility.exe" dest="MainApp:\" type="bin" operation="add" md5="771FAF61684EBA218B1316ECB3800B74"/>
+			<File name="kernel.dll" dest="MainApp:\" type="bin" operation="add" md5="2B8CFE2BB488A57007E0B5E53BA5D067"/>
+			<File name="kernelupdate.exe" dest="MainApp:\" type="bin" operation="add" md5="DD5D8B40669AA3CAB2263FB80BCB8BC1"/>
+			<File name="libexpat.dll" dest="MainApp:\" type="bin" operation="add" md5="2EA2A9A9836CFBA5D650105506DB9186"/>
+			<File name="libtorrent_license.txt" dest="MainApp:\" type="resource" operation="add" md5="9BE0D041F923F3717E72732C3ADA2B1B"/>
+			<File name="logonbd.dll" dest="MainApp:\" type="bin" operation="add" md5="BBB117E4FF9F470DEEB5006261322454"/>
+			<File name="logonbdext.dll" dest="MainApp:\" type="bin" operation="add" md5="6A3D122C16BD965A4CCFBDD072A5FBD7"/>
+			<File name="minosagent.dll" dest="MainApp:\" type="bin" operation="add" md5="BECE035264EAF3C68A2D4996E86DB8B7"/>
+			<File name="module\baidunetdiskmodulelist.db" dest="MainApp:\module\" type="resource" operation="add" md5="2A577B549476B9C41AF33C53B910F05D"/>
+			<File name="module\cyberplayer\cyberplayer.dll" dest="MainApp:\module\cyberplayer\" type="bin" operation="add" md5="9825C6474C6F3954D2C97C533B25D466"/>
+			<File name="msvcp140.dll" dest="MainApp:\" type="bin" operation="add" md5="1D8C79F293CA86E8857149FB4EFE4452"/>
+			<File name="netdisk_logo.ico" dest="MainApp:\" type="resource" operation="add" md5="68F413266D7FCFA66ADB7BA2CDDF5E54"/>
+			<File name="npyunwebdetect.dll" dest="MainApp:\" type="bin" operation="add" md5="A3A85FDF0EC5303446CE3E8CE2E9312F"/>
+			<File name="resource.db" dest="MainApp:\" type="resource" operation="add" md5="1931FCA3CF88C53FD90590E024168B24"/>
+			<File name="serviceassistans.exe" dest="MainApp:\" type="bin" operation="add" md5="01291940946DD8CD967F2896EC36F03C"/>
+			<File name="skin\default.db" dest="MainApp:\skin\" type="resource" operation="add" md5="C60C85C314551943280FDFCD51F80F9A"/>
+			<File name="skin\duiengineskin.zip" dest="MainApp:\skin\" type="resource" operation="add" md5="7570ED320B2FF5564017F9A29E5627F3"/>
+			<File name="sounds\1.wav" dest="MainApp:\sounds\" type="resource" operation="add" md5="583F4E6B4BB00DD4B9DFAF7338F6F414"/>
+			<File name="sounds\2.wav" dest="MainApp:\sounds\" type="resource" operation="add" md5="4408F456A35C301EE1B951E20FFA71BB"/>
+			<File name="sounds\3.wav" dest="MainApp:\sounds\" type="resource" operation="add" md5="9CA4AEC9EF66806361F3E0AE86792C86"/>
+			<File name="sounds\4.wav" dest="MainApp:\sounds\" type="resource" operation="add" md5="0616BA6AA33FCC59C46F7EDAEA9B3E9E"/>
+			<File name="ucrtbase.dll" dest="MainApp:\" type="bin" operation="add" md5="8ED02A1A11CEC72B6A6A4989BF03CFCC"/>
+			<File name="uninst.exe" dest="MainApp:\" type="bin" operation="add" md5="A25EB6C3BDEAA360B4124F87B5947F7C"/>
+			<File name="updateagent.dll" dest="MainApp:\" type="bin" operation="add" md5="8ED1E7280C5A855D7D9222892C9C8B08"/>
+			<File name="vcruntime140.dll" dest="MainApp:\" type="bin" operation="add" md5="B77EEAEAF5F8493189B89852F3A7A712"/>
+			<File name="versioninfo" dest="MainApp:\" type="resource" operation="add" md5="1CAE1E5F960729054299FC0BDD071015"/>
+			<File name="versioninfo2" dest="MainApp:\" type="resource" operation="add" md5="1F4A3D2FD790E6CD6676B5B90A0FA53D"/>
+			<File name="ximage.dll" dest="MainApp:\" type="bin" operation="add" md5="7EBC597FA453E3AE9703128BC413BF70"/>
+			<File name="yundb.dll" dest="MainApp:\" type="bin" operation="add" md5="CDEB81848E4FB043A1289B2F4DBF6C58"/>
+			<File name="yundetectservice.exe" dest="MainApp:\" type="bin" operation="add" md5="9237F56A3419886567CF99824205D343"/>
+			<File name="yundls.dll" dest="MainApp:\" type="bin" operation="add" md5="DBC9CF1877D7FF76E2D44AC5A10E4737"/>
+			<File name="yunlogic.dll" dest="MainApp:\" type="bin" operation="add" md5="911C3FD5AA60D3BFD7851D2840B70A65"/>
+			<File name="yunshellext.dll" dest="MainApp:\" type="bin" operation="add" md5="EABE1A1FB357A2B24BA7D39ADB9FC5CB"/>
+			<File name="yunshellext64.dll" dest="MainApp:\" type="bin" operation="add" md5="BE24A9D202E88568ED5A91B96507260F"/>
+			<File name="yunsub.dll" dest="MainApp:\" type="bin" operation="add" md5="4F8172CDA60E14B01917CC8649A51968"/>
+			<File name="yuntorrentfile.ico" dest="MainApp:\" type="resource" operation="add" md5="B8E288AB1A7309DB50492F729A742072"/>
+			<File name="yunutilityservice.exe" dest="MainApp:\" type="bin" operation="add" md5="90607413B85C4EDB65772837D766FE1F"/>
+			<File name="yundetectservice.exe" dest="MainApp:\" type="restart" operation="exe"/>
+			<File name="baidunetdisk.exe" dest="MainApp:\" type="-install rename" operation="exe"/>
+			<File name="baiduyunguanjia.exe" dest="MainApp:\" type="bin" operation="del"/>
+			<File name="guanjia_logo.ico" dest="MainApp:\" type="resource" operation="del"/>
+		</FullPackage>
+	</Module>
+</AutoUpdate>

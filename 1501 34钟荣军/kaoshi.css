@@ -1,0 +1,389 @@
+body {
+    display: block;
+    margin: 8px;
+    margin: 0px;
+}
+
+a, div,  h3,  li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+.daohanglan-header{
+    width: 100%;
+    min-width: 1100px;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    
+    
+}
+.daohanglan-container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+    zoom: 1;
+
+}
+.logo{
+    display: inline-block;
+    width: 72px;
+    height: 25px;
+    margin-top: 22.5px;
+    background-size: 72px 25px;
+    background-image:url("tupian/youzan.png")
+}
+.youzanright-container{
+    display: inline-block;
+    
+    margin-left: 10px;
+    margin-bottom: -1px;
+    
+}
+.youzanright{
+    
+    width: 78px;
+    color: #999;
+    font-size: 10px;
+    font-family: 'PingFang SC';
+    font-weight: 300;
+    line-height: 13px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+ 
+.daohanglanwenzi {
+    float: right;
+    zoom: 1;
+    margin: 0px;
+}
+.current-highlight {
+    color: #FF4444 !important;
+  
+}
+.daohanglanwenzi > li {
+    padding: 0px 20px;
+}
+.daohanglanwenzi > li {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+}
+
+
+.caret-margin {
+    margin-right: 16px;
+}
+html {
+    position: relative; }
+  
+html, body {
+    min-width: 1100px;
+    color: #2c3a46;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.6em;
+    
+}
+a{
+    text-decoration:none
+}
+.btn-zhuce_ {
+    width: 80px;
+    height: 30px;
+    line-height: 31px;
+    display: inline-block;
+    background-color: #2b90ed;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+ li.denglu_common_ {
+    padding: 0px 0px 0px 10px;
+}
+
+.btn-denglu {
+    width: 80px;
+    height: 30px;
+    line-height: 28px;
+    display: inline-block;
+    border: 1px solid #2B90ED;
+    color: #2B90ED;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+a:hover{
+        color: #FF4444;
+}
+
+.lunbotuquan {
+  height: 420px;
+  width: 100%;
+  margin: 0px;
+}
+.swiper-container {
+  width: 100%;
+  height: 420px;
+}
+.wenzi-center{
+  color: #2c3a46;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.swiper-wrapper {
+  position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+ .swiper-lunbotupian{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+.lunbotuwenzi h3{
+  font-size: 44px;
+  margin: 100px 0 7px;
+  line-height: 62px;
+}
+
+a {
+  text-decoration: none;
+}
+.lunbotuwenzi p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 55px;
+}
+.lunbotuwenzi a{
+  position: absolute;
+  
+} 
+a.lunbotu-button {
+  color: #eb737f;
+}
+a.lunbotu-button, a.red-button {
+  background-color: #fff;
+  padding: 12px 42px;
+}
+a.button {
+  font-size: 14px;
+  
+  text-decoration: none;
+  border-radius: 2px;
+}
+ .btn-denglu:hover{
+  background:#2B90ED;
+  color: #ffffff !important;
+}
+
+ .btn-zhuce_:hover{
+   background: lightskyblue !important;
+   color:#fff; 
+ }
+ .lunbotuwenzi{
+  position: absolute;
+  width: 1100px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.lunbotudifang{
+  height: 420px;
+  width: 100%;
+}
+.swiper-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.lunbotuwenzi{
+  position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.lunbotuwenzi h3 {
+  color: #fff;
+  font-size: 44px;
+    margin: 100px 0 7px;
+    line-height: 62px;
+}
+a.button {
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.biaotixia-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+}
+.biaotixia-container h3 {
+ 
+  font-size: 28px;
+  color: #333;
+  letter-spacing: 0;
+  line-height: 40px;
+  padding-top: 90px;
+  text-align: center;
+}
+.biaotixia-quan {
+ 
+  display: flex;
+  margin-top: 70px;
+}
+
+.biaotixia-wenzi {
+  margin-bottom: 28px;
+}
+.biaotixia-shangzi {
+  color: #333;
+  font-size: 18px;
+  line-height: 24px;
+  
+  letter-spacing: 0;
+  
+}
+.biaotixia-xiazi {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.xiaban a.blue {
+  background-color: #38f;
+  color: #fff;
+}
+.xiaban a.button {
+  font-size: 14px;
+  padding: 10px 42px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.xiaban a.blue-outline {
+  border: 1px solid #38f;
+  color: #38f;
+  padding: 9px 42px;
+}
+.xiaban a.button {
+  font-size: 14px;
+  padding: 10px 42px;
+  border-radius: 2px;
+  display: inline-block;
+}
+a.button {
+  font-size: 14px;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.tupian-right {
+  width: 615px;
+}
+.jiantou {
+  width: 1100px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 999;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.custom-prev {
+  right: 1160px;
+  left: auto;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-image: url("tupian/L.png");
+}
+.custom-next {
+  left: 1130px;
+  right: auto;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-image: url("tupian/R.png");
+}
+.jiantou:hover > .custom-prev{
+ visibility: visible;
+}
+
+.jiantou:hover > .custom-next{
+  visibility: visible;
+ }
+.oo{
+  visibility: hidden;
+}
+
+.jiantou {
+  position: relative;
+  display: inline-block;
+}
+.xiajiantou::after{
+  content:url(tupian/xiajiantou.png)
+
+}
